@@ -49,7 +49,7 @@ points(data$Time, data$Sub_metering_3, type = "l", col = "blue")
 legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
        lty = 1, lwd = 2, bty = "n", col = c("black", "red", "blue"))
 
-plot(data$Time, data$Global_reactive_power, type = "l", xlab = "Time", ylab = 
-         "Global Reactive Power(kilowatts)")
+plot(data$Time, data$Global_reactive_power, type = "l", xlab = "Time", 
+     ylab = "Global Reactive Power(kilowatts)")
 
 dev.off()
